@@ -6,7 +6,7 @@ permalink: /team/
 
 The cheminfo system has contributors all around the world.
 
-<iframe frameborder=0 style='width:100%;height:500px' src='//www.zeemaps.com/pub?group=4057653&legend=0&locate=1&list=1'> </iframe>
+<iframe frameborder=0 style='width:100%;height:500px' src='//www.zeemaps.com/pub?group=4057653&legend=1&list=1&shuttered=1'> </iframe>
 
 ## Switzerland
 
