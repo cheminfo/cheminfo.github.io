@@ -18,7 +18,7 @@ Graduated in Forensic sciences at UNIL. Co-founder and maintainer of the cheminf
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://ch.linkedin.com/in/mzasso) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/targos)
 
-### Daniel Kostro
+### Daniel
 
 Graduated in Life Sciences engineering at EPFL.
 
