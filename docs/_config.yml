@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: eln.epfl.ch
+title: cheminfo 
 email: eln@epfl.ch
 description: >- # this means to ignore newlines until "baseurl:"
-  News and background about the electronic lab notebook eln.epfl.ch
-baseurl: "/eln.epfl.ch" # the subpath of your site, e.g. /blog
-url: "https://cheminfo.github.io/eln.epfl.ch" # the base hostname & protocol for your site, e.g. http://example.com
+  News and background about the cheminfo electronic lab notebook
+baseurl: "/h" # the subpath of your site, e.g. /blog
+url: "https://cheminfo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: cheminfo
 github_username: cheminfo

@@ -4,15 +4,13 @@ title: FAQ
 permalink: /faq/
 ---
 
-# What is eln.epfl.ch?
-
-The eln.epfl.ch is a [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo#:~:text=A%20fork%20is%20a%20copy,without%20affecting%20the%20original%20project) of the ELN developed by the [cheminfo GitHub organization](github.com/cheminfo)
+# What is the cheminfo ELN?
 
 # What makes it different form other ELNs?
 
-_With eln.epfl.ch [FAIR data](https://www.go-fair.org/fair-principles/) is not an afterthought of a data management plan (DMP)._
+_With he cheminfo ELN [FAIR data](https://www.go-fair.org/fair-principles/) is not an afterthought of a data management plan (DMP)._
 
-Upon importation to the ELN all data are converted into standardized, and open formats like [JCAMP-DX](http://jcamp-dx.org/). All synthesis, analysis, and notes can be exported with metadata to a Zenodo in a form that is amenable to datamining efforts
+Upon importation to the ELN all data are converted into standardized, and open formats like [JCAMP-DX](http://jcamp-dx.org/). All synthesis, analysis, and notes can be exported with metadata to a Zenodo in a form that is amenable to data mining efforts.
 
 _Data is "alive all the time_
 
@@ -24,15 +22,15 @@ All software we develop(ed) for this ELN is free and open-source. This means tha
 
 # Is this production-ready?
 
-Many research groups around the world and at EPFL use it for production. In fact, many ISIC services, like the elemental analysis, are tightly integrated with the ELN.
+Many research groups around the world and at EPFL use it for production. In fact, many analytical services at EPFL, like the elemental analysis, are tightly integrated with the ELN.
 
 For the ELN, we have developed about 180 packages which receive about 250'000 downloads per week---but not only for chemistry applications! [Browsers use one of our packages to perform speedtests](https://webkit.org/blog/7536/jsc-loves-es6/) and our most popular package, [ml](https://github.com/mljs/ml) has [more than two thousand stars on GitHub](https://github.com/mljs/ml/stargazers).
 
 # How can I get started?
 
-If you are based at EPFL, it is easy! You just have to visit eln.epfl.ch and log in with your GASPAR account.
+If you are based at EPFL (or have an EPFL guest account), it is easy! You just have to visit [eln.epfl.ch](eln.epfl.ch) and log in with your GASPAR account.
 
-If you are not based at EPFL, you can use many of the functionalities at c6h6.org or [deploy your own ELN](https://github.com/cheminfo/roc-eln-docker).
+If you are not based at EPFL, you can use many of the functionalities at [c6h6.org](c6h6.org) (where you can log in using your GitHub account) or [deploy your own ELN](https://github.com/cheminfo/roc-eln-docker). [Reach out to us](contact) if you have any questions about deploying the ELN yourself.
 
 # Where is my data stored?
 
