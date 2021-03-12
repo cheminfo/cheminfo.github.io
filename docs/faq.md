@@ -4,7 +4,6 @@ title: FAQ
 permalink: /faq/
 ---
 
-# What is the cheminfo ELN?
 
 # What makes it different form other ELNs?
 
