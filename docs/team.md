@@ -62,9 +62,53 @@ Thomas is the developer of [DataWarrior](https://openmolecules.org/datawarrior/i
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thsa)
 
+### [NMRprocess (Geneva)](http://nmrprocess.ch/)
+
+#### Damien
+
+Damien is a chemical data specialist. He first worked on the development of nuclear magnetic resonance (NMR) applied to organic compounds and natural products of pharmacological interest and then funded and coordinated the [NMReDATA](https://nmredata.org/) initiative. Since 2020, he co-chairs at IUPAC working group developing recommendations for spectroscopic data at the international level.
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/djeanner)
+
+### Others
+
+#### Norman
+
+Norman has been the developer of the [visualizer library](https://github.com/NPellet/visualizer) that is used to build the frontend of the cheminfo ELN. He is fullstack engineer at Centre Suisse d'Electronique et de Microtechnique
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NPellet)
+
+### Océane
+
+Océane is a student in microengineering.
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/opatiny/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/opatiny)
+
+### Christian
+
+Is a contributor to the [openchemlib](https://github.com/cheminfo/openchemlib-js) library.
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rufenerc)
+
 ## Colombia
 
 ### [Univalle (Cali)](https://www.univalle.edu.co/)
+
+#### Jose Alejandro
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jobo322)
+
+#### Javier Osorio
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/josoriom)
+
+#### Andres Castillo
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andcastillo)
+
+### Other
+
+#### Jefferson Javier Hernández Panqueba
+
+Jefferson is a Data Scientist at [Grupodot](https://www.grupodot.com/en/) and has been contributing to machine learning and image analysis libraries.
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeffersonh44/?locale=en_US) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/https://github.com/JeffersonH44)
 
 ## Germany
 
@@ -94,6 +138,26 @@ Johannes is research associate at the Johannes Gutenberg-University Mainz and me
 
 ### [Murdoch University (Perth)](https://www.murdoch.edu.au/study/international-students)
 
+#### Julien Wiest
+
+Julien is a professor of computational spectroscopy at Murdoch University. His interests are NMR automation and the study of complex mixture using tools of cheminformatics.
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nmrlab/?originalSubdomain=co)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jwist)
+
 ## Luxembourg
 
 ### [Luxembourg Institute of Science and Technology (LIST)](https://www.list.lu/)
+
+#### Reiner
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ReinerD)
+
+## Netherlands
+
+### University of Amsterdam
+
+#### Jessica
+
+Jessica is a polymer chemist involved in the development of [MSPolyCalc](https://www.polycalc.org/)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jessica-desport-96458a1a/?locale=en_US)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jdesport)
