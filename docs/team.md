@@ -10,7 +10,7 @@ The cheminfo system has contributors all around the world.
 
 ## Switzerland
 
-### [Ecole polytechnique fédérale de Lausanne (Switzerland)](https://epfl.ch)
+### [Ecole polytechnique fédérale de Lausanne](https://epfl.ch)
 
 #### Luc
 
@@ -34,7 +34,7 @@ Miguel is JavaScript lover and data scientist enthusiast that works at EPFL, and
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kevin-maik-jablonka-538655200/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maasencioh)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=whit)](https://twitter.com/maasencioh)
 
-### [Zakodium (Switzerland)](https://www.zakodium.com/)
+### [Zakodium](https://www.zakodium.com/)
 
 #### Michaël
 
@@ -54,7 +54,7 @@ Sebastian has a degree in professional web development from [UCA](https://www.uc
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://ch.linkedin.com/in/daniel-kostro-65301438) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sebastien-Ahkrin)
 
-### [Idorsia (Basel, Switzerland)](https://www.idorsia.com/)
+### [Idorsia (Basel)](https://www.idorsia.com/)
 
 #### Thomas
 
@@ -64,11 +64,11 @@ Thomas is the developer of [DataWarrior](https://openmolecules.org/datawarrior/i
 
 ## Colombia
 
-### [Univalle (Colombia, Cali)](https://www.univalle.edu.co/)
+### [Univalle (Cali)](https://www.univalle.edu.co/)
 
 ## Germany
 
-### [Universität zu Köln (Germany)](https://www.uni-koeln.de/)
+### [Universität zu Köln](https://www.uni-koeln.de/)
 
 #### Hamed
 
@@ -76,9 +76,13 @@ Hamed is a software engineer at University of Cologne and develops [nmrium](http
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamed-musallam-542aa739/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hamed-musallam)
 
-### [Friedrich-Schiller-Universität Jena (Germany)](https://www.uni-jena.de/en/)
+### [Friedrich-Schiller-Universität Jena](https://www.uni-jena.de/en/)
 
-### Johannes Gutenberg University Mainz (Germany
+#### Michael
+
+Michael is a doctoral candidate in the [Steinbeck Research Group](https://cheminf.uni-jena.de/members/steinbeck/) and develops [nmrium](https://github.com/cheminfo/nmr-displayer).
+
+### [Johannes Gutenberg University Mainz](https://university.uni-mainz.de/)
 
 #### Johannes
 
@@ -88,8 +92,8 @@ Johannes is research associate at the Johannes Gutenberg-University Mainz and me
 
 ## Australia
 
-### Murdoch University (Perth, Australia)
+### [Murdoch University (Perth)](https://www.murdoch.edu.au/study/international-students)
 
 ## Luxembourg
 
-### LIST (Luxembourg)
+### [Luxembourg Institute of Science and Technology (LIST)](https://www.list.lu/)
