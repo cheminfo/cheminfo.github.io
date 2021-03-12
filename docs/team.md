@@ -54,7 +54,13 @@ Sebastian has a degree in professional web development from [UCA](https://www.uc
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://ch.linkedin.com/in/daniel-kostro-65301438) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sebastien-Ahkrin)
 
-### Idorsia (Basel, Switzerland)
+### [Idorsia (Basel, Switzerland)](https://www.idorsia.com/)
+
+#### Thomas
+
+Thomas is the developer of [DataWarrior](https://openmolecules.org/datawarrior/index.html) and [openchemlib](https://github.com/Actelion/openchemlib).
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thsa)
 
 ## Colombia
 
@@ -64,9 +70,21 @@ Sebastian has a degree in professional web development from [UCA](https://www.uc
 
 ### [Universität zu Köln (Germany)](https://www.uni-koeln.de/)
 
+#### Hamed
+
+Hamed is a software engineer at University of Cologne and develops [nmrium](https://github.com/cheminfo/nmr-displayer).
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamed-musallam-542aa739/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hamed-musallam)
+
 ### [Friedrich-Schiller-Universität Jena (Germany)](https://www.uni-jena.de/en/)
 
 ### Johannes Gutenberg University Mainz (Germany
+
+#### Johannes
+
+Johannes is research associate at the Johannes Gutenberg-University Mainz and member of the [nfdi4chem consortium](https://nfdi4chem.de/).
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jliermann)
 
 ## Australia
 
