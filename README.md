@@ -1,3 +1,3 @@
-#  cheminfo ELN web site
+# cheminfo ELN web site
 
-This repository hosts the [cheminfo ELN](cheminfo.github.io) web site.
+This repository hosts the [cheminfo ELN](https://cheminfo.github.io) web site.
