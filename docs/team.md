@@ -138,7 +138,7 @@ Johannes is research associate at the Johannes Gutenberg-University Mainz and me
 
 ### [Murdoch University (Perth)](https://www.murdoch.edu.au/study/international-students)
 
-#### Julien Wiest
+#### Julien Wist
 
 Julien is a professor of computational spectroscopy at Murdoch University. His interests are NMR automation and the study of complex mixture using tools of cheminformatics.
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nmrlab/?originalSubdomain=co)
