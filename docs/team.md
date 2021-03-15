@@ -24,14 +24,14 @@ With a background in organic chemistry and structural analysis Luc is interested
 
 Kevin is a PhD student in [Berend Smit's](https://www.epfl.ch/labs/lsmo/Smit/) lab at EPFL and interested in using data to make new discoveries in materials science.
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-asencio/?originalSubdomain=ch) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kjappelbaum)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kjappelbaum)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=whit)](https://twitter.com/kmjablonka)
 
 #### Miguel
 
 Miguel is JavaScript lover and data scientist enthusiast that works at EPFL, and previously at [Resuelve tu Deuda México](https://resuelvetudeuda.com/)
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kevin-maik-jablonka-538655200/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maasencioh)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-asencio/?originalSubdomain=ch)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=whit)](https://twitter.com/maasencioh)
 
 ### [Zakodium](https://www.zakodium.com/)
@@ -74,17 +74,20 @@ Damien is a chemical data specialist. He first worked on the development of nucl
 #### Norman
 
 Norman has been the developer of the [visualizer library](https://github.com/NPellet/visualizer) that is used to build the frontend of the cheminfo ELN. He is fullstack engineer at Centre Suisse d'Electronique et de Microtechnique
+
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NPellet)
 
 ### Océane
 
 Océane is a student in microengineering.
+
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/opatiny/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/opatiny)
 
 ### Christian
 
 Is a contributor to the [openchemlib](https://github.com/cheminfo/openchemlib-js) library.
+
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rufenerc)
 
 ## Colombia
@@ -108,6 +111,7 @@ Is a contributor to the [openchemlib](https://github.com/cheminfo/openchemlib-js
 #### Jefferson Javier Hernández Panqueba
 
 Jefferson is a Data Scientist at [Grupodot](https://www.grupodot.com/en/) and has been contributing to machine learning and image analysis libraries.
+
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeffersonh44/?locale=en_US) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/https://github.com/JeffersonH44)
 
 ## Germany
@@ -126,6 +130,8 @@ Hamed is a software engineer at University of Cologne and develops [nmrium](http
 
 Michael is a doctoral candidate in the [Steinbeck Research Group](https://cheminf.uni-jena.de/members/steinbeck/) and develops [nmrium](https://github.com/cheminfo/nmr-displayer).
 
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/michaelwenk)
+
 ### [Johannes Gutenberg University Mainz](https://university.uni-mainz.de/)
 
 #### Johannes
@@ -141,6 +147,7 @@ Johannes is research associate at the Johannes Gutenberg-University Mainz and me
 #### Julien Wist
 
 Julien is a professor of computational spectroscopy at Murdoch University. His interests are NMR automation and the study of complex mixture using tools of cheminformatics.
+
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nmrlab/?originalSubdomain=co)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jwist)
 
@@ -158,6 +165,7 @@ Julien is a professor of computational spectroscopy at Murdoch University. His i
 
 #### Jessica
 
-Jessica is a polymer chemist involved in the development of [MSPolyCalc](https://www.polycalc.org/)
+Jessica is a polymer chemist involved in the development of [MSPolyCalc](https://www.polycalc.org/).
+
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jessica-desport-96458a1a/?locale=en_US)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jdesport)
