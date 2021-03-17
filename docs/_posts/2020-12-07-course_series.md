@@ -8,6 +8,10 @@ categories: [tutorial, news]
 Over the last year we had the opportunity to participate in 4 doctoral school classes and it appears that some features of eln.epfl.ch that can be used to solve research projects are not well known.
 For this reason we will organize some short (max 30 min) seminars by Zoom (https://epfl.zoom.us/j/81068501953) on regular base. They will take place Monday at 5PM (Swiss time) by Zoom.
 
+## Credits
+
+If you want to obtain credits for the course we ask you to make significant improvements to the documentation (i.e., to go beyond fixing a few typos). Please [register in the poll](https://wolke.sumpi.org/index.php/apps/polls/s/thv1xHVPZkp7FmCP) and let us know in case you have issues with updating/writing documentation. See the [blog post about documentation](https://cheminfo.github.io/tutorial/cheminfo_docs/) for more details.
+
 ## Schedule
 
 ### 18.1.2021: General introduction to eln.epfl.ch
