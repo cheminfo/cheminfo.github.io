@@ -12,6 +12,8 @@ For this reason we will organize some short (max 30 min) seminars by Zoom (https
 
 ### 18.1.2021: General introduction to eln.epfl.ch
 
+<a href="https://drive.google.com/file/d/12KwESV79JKUA2fHkHY97Ha46psmPD0bG/view?usp=sharing" target="_blank">Video</a>
+
 The first seminar will focus on the "big picture"
 
 - Philosophy
@@ -23,12 +25,16 @@ The first seminar will focus on the "big picture"
 
 ### 1.2.2021: Add a new sample
 
+<a href="https://drive.google.com/file/d/1Fwad5l2KlWMiXqN34FNIDuT0aRjNwKOt/view?usp=sharing" target="_blank">Video</a>
+
 - Biological sample, material sample.
 - Chemical structure, stereochemistry, mixture of isomers.
 - Natural or modified peptidic and nucleic sequences.
 - Keywords and meta information.
 
 ### 15.2.2021: Managing chemical libraries of synthesized products
+
+<a href="https://drive.google.com/file/d/1-G85ERzVkjVKEE1et2bcl-bRMW6CFdL5/view?usp=sharing" target="_blank">Video</a>
 
 - Find synthesized chemicals from former colleagues.
 - How to create labels for new products (with chemical structure)?
@@ -37,8 +43,9 @@ The first seminar will focus on the "big picture"
 
 <a href="https://www.dropbox.com/s/f0rbmm5xiiu53i3/20200214_chemical_libraries.pdf?dl=1">Slides</a>
 
-
 ### 1.3.2021: Monoisotopic mass
+
+<a href="https://drive.google.com/file/d/12KwESV79JKUA2fHkHY97Ha46psmPD0bG/view?usp=sharing" target="_blank">Video</a>
 
 - Determine possible molecular formula from monoisotopic mass
 - Problem of ionization.
@@ -46,6 +53,8 @@ The first seminar will focus on the "big picture"
 - Pubchem lookup.
 
 ### 15.3.2021: Mass spectrometry of polymers
+
+<a href="https://drive.google.com/file/d/1Q7xZeC2vVHdLO6oxI4u1JKqEH8YwyMLY/view?usp=sharing" target="_blank">Video</a>
 
 - Polymer, copolymer, ⍺ and ⍵ end groups.
 - Kendrick chart.
