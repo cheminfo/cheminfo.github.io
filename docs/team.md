@@ -174,4 +174,4 @@ Jessica is a polymer chemist involved in the development of [MSPolyCalc](https:/
 
 The cheminfo ecosystem is grateful for support from many organizations
 
-<img style="float: left; margin-right: 2em; width: 8em" src="../assets/img/logos.png">
+<img style="float: center; margin-right: 2em; width: 8em" src="../assets/img/logos.png">
