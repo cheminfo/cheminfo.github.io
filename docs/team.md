@@ -169,3 +169,9 @@ Jessica is a polymer chemist involved in the development of [MSPolyCalc](https:/
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jessica-desport-96458a1a/?locale=en_US)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jdesport)
+
+# Support
+
+The cheminfo ecosystem is grateful for support from many organizations
+
+<img style="float: center; margin-right: 2em; width: 8em" src="../assets/img/logos.png">
