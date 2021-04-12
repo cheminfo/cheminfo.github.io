@@ -66,10 +66,14 @@ The first seminar will focus on the "big picture"
 
 ### 29.3.2021: Electronic laboratory notebook
 
+<a href="https://drive.google.com/file/d/17Lu5otGKkGbsG6K3WgK2Av35Yols_ku1/view?usp=sharing" target="_blank">Video</a>
+
 - Calculation of quantities.
 - Definition of shortcuts.
 
 ### 12.4.2021: Mass spectrometry of natural or non-natural peptides
+
+<a href="https://drive.google.com/file/d/1VoUgrzqMz4QTzjbvedISBt5w_CSBzDEm/view?usp=sharing" target="_blank">Video</a>
 
 - How to enter a sequence?
 - Fragmentation and internal fragmentation.
