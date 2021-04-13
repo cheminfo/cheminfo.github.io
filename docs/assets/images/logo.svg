@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" id="Layer_1" data-name="Layer 1" viewBox="0 0 594 139">
+  <defs>
+    <style>.cls-1,.cls-7{fill:#355eb8;}.cls-2,.cls-3{fill:none;}.cls-2{stroke:#355eb8;stroke-width:21px;}.cls-4,.cls-7{font-size:109px;font-family:ArialRoundedMTBold, Arial Rounded MT Bold;}.cls-5{letter-spacing:-0.06em;}.cls-6{letter-spacing:-0.04em;}.cls-8{letter-spacing:-0.04em;}.cls-9{letter-spacing:-0.05em;}</style>
+  </defs>
+  <path class="cls-1" d="M45,43.47a8,8,0,1,0-8-8,8,8,0,0,0,8,8"></path>
+  <path class="cls-2" d="M45,43.47a8,8,0,1,0-8-8A8,8,0,0,0,45,43.47Z"></path>
+  <path class="cls-1" d="M102.73,80.58a8,8,0,1,0-8-8,8,8,0,0,0,8,8"></path>
+  <path class="cls-2" d="M102.73,80.58a8,8,0,1,0-8-8A8,8,0,0,0,102.73,80.58Z"></path>
+  <path class="cls-1" d="M84.21,117.68a8,8,0,1,0-8-8,8,8,0,0,0,8,8"></path>
+  <path class="cls-2" d="M84.21,117.68a8,8,0,1,0-8-8A8,8,0,0,0,84.21,117.68Z"></path>
+  <path class="cls-1" d="M45,117.68a8,8,0,1,0-8-8,8,8,0,0,0,8,8"></path>
+  <path class="cls-2" d="M45,117.68a8,8,0,1,0-8-8A8,8,0,0,0,45,117.68Z"></path>
+  <path class="cls-1" d="M26.7,80.58a8,8,0,1,0-8-8,8,8,0,0,0,8,8"></path>
+  <path class="cls-2" d="M26.7,80.58a8,8,0,1,0-8-8A8,8,0,0,0,26.7,80.58Z"></path>
+  <rect class="cls-3" x="8.22" y="-0.18" width="1111.72" height="128.37"></rect>
+  <text class="cls-4" transform="translate(129.22 103.96)">
+    <tspan class="cls-5">c</tspan>
+    <tspan class="cls-6" x="57.8" y="0">he</tspan>
+    <tspan x="179.68" y="0">m</tspan>
+  </text>
+  <text class="cls-7" transform="translate(400.88 103.96)">
+    <tspan class="cls-8">i</tspan>
+    <tspan class="cls-6" x="25.29" y="0">n</tspan>
+    <tspan class="cls-9" x="86.76" y="0">f</tspan>
+    <tspan x="117.28" y="0">o</tspan>
+  </text>
+  <path class="cls-1" d="M84.21,43.47a8,8,0,1,0-8-8,8,8,0,0,0,8,8"></path>
+  <path class="cls-2" d="M84.21,43.47a8,8,0,1,0-8-8A8,8,0,0,0,84.21,43.47Z"></path>
+</svg>

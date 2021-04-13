@@ -1,8 +1,9 @@
 ---
-layout: post
 title: "The cheminfo development environment and workflow from a perspective of a new contributor"
-date: 2021-02-04 14:11
-categories: [tutorial]
+date: 2020-12-07 19:53:30 +0100
+author: "Kevin Jablonka"
+description: "This is meta description"
+categories: ["Tutorial", "News"]
 ---
 
 This post outlines some tools and tricks that are used by cheminfo developers---summarized by someone who just recently started contributing (and was new to JavaScript). It is hopefully useful as a starting point for new contributors to the cheminfo ecosystem.
@@ -51,18 +52,18 @@ Most of the things you might want to do on GitHub can be done from VSCode. If yo
 
 The Source Control icon in the Activity Bar (`CTRL+SHIFT+G`) the left will list the uncommitted changes in your workspace, you can enter a commit message and use the checkmark to commit the changes.
 
-<img style="float:center; width: 16em" src="{{ site.url }}/assets/img/developer_tools/source_control.png">
+<img style="float:center; width: 16em" src="/assets/images/developer_tools/source_control.png">
 
 In the footer you'll see an indication on which branch you are working on (and you can switch branches by clicking on it) and an icon that allows you to push the changes.
 
-<img style="width: 20em float:center" src="{{ site.url }}/assets/img/developer_tools/activity_bar.png">
+<img style="width: 20em float:center" src="/assets/images/developer_tools/activity_bar.png">
 
 ### Pull requests and issues
 
 The [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) allows browsing issues and pull requests. In the screenshot below we see that there are two pull requests in this particular repository one of which has been created by me and another one which has been created by [dependabot](https://dependabot.com/).
 We can also see a list of all issues and directly create a new branch that is linked to a particular issue by clicking on the arrow that appears when we hover over the list.
 
-<img style="width: 20em; float:center" src="{{ site.url }}/assets/img/developer_tools/pr.png">
+<img style="width: 20em; float:center" src="/assets/images/developer_tools/pr.png">
 
 # Other tools
 
@@ -185,18 +186,4 @@ Many of the frontends (e.g, c6h6.org) are developed using the [visualizer librar
 - You can use `CMD+M` to create new modules
 - It is usually practical to use multiple layers to keep the code organized, e.g., one Admin layer for every major computational operation. You can edit the layers using a right click and the options under the `Switch layer` menu
 
-<img style="float:center; width: 30em" src="{{ site.url }}/assets/img/developer_tools/switch_layer.png">
-
-<hr>
-
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
+<img style="float:center; width: 30em" src="/assets/images/developer_tools/switch_layer.png">

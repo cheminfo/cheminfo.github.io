@@ -1,0 +1,68 @@
+########################### Navigation ###################################
+menu:
+  # main menu
+  main:
+    - { name: Home, url: "/" }
+    - { name: Contact, url: "/contact" }
+    - { name: About, url: "/about" }
+    - { name: FAQ, url: "/faq" }
+    - { name: Contribute, url: "/contribute" }
+    - { name: Team, url: "/team" }
+    - { name: Papers, url: "/publications" }
+
+  ##### Dropdown menu ######
+
+  # - name: dropdown
+  #   submenu:
+  #   - name : "d1"
+  #     url : "#"
+  #   - name : "d2"
+  #     url : "#"
+
+  ##########################
+
+  # Footer menu
+  footer:
+    - { name: Home, url: "/" }
+    - { name: Contact, url: "/contact" }
+    - { name: "Code of Conduct", url: "/coc" }
+
+######################### Default Parameters ###########################
+
+# logo
+logo: "/assets/images/logo.svg"
+# meta data
+author: "cheminfo"
+description: "This is meta description"
+# google analitycs ID
+google_analitycs_id: "" # your id
+# contact form action
+contact_form_action: "https://formspree.io/f/xnqlqejr" # contact form works with : https://formspree.io
+# copyright
+copyright: "Theme: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)"
+
+# preloader
+preloader:
+  enable: true
+  preloader: "" # use png, jpg, svg or gif format
+
+# search
+search:
+  enable: true
+
+############################## Social Site ##########################
+social:
+  # - name : "facebook"
+  #   icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+  #   link : "#"
+
+  - name: "twitter"
+    icon: "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+    link: "twitter.com/cheminfo"
+
+  - name: "github"
+    icon: "ti-github" # themify icon pack https://themify.me/themify-icons
+    link: "github.com/cheminfo"
+  # - name : "linkedin"
+  #   icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+  #   link : "#"
