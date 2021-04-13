@@ -1,8 +1,9 @@
 ---
-layout: post
 title: "Where can I find help in the ELN and how can I improve it?"
+author: "Kevin Jablonka"
 date: 2021-02-04 14:11
-categories: [tutorial]
+description: "This is meta description"
+categories: ["Tutorial"]
 ---
 
 In this blog post we will discuss where you can find help in the ELN and how you can help use improving the documentation.
@@ -11,7 +12,7 @@ In this blog post we will discuss where you can find help in the ELN and how you
 
 If you have been using the ELN you might have been noticing that there is a question mark icon in the top left corner of some pages in the ELN. If you click on it, it will open a popup with help relevant to the view you're currently looking at.
 
-<img style="float:center; width: 40em" src="{{ site.url }}/assets/img/developer_tools/help_example.png">
+<img style="float:center; width: 40em" src="/assets/images/developer_tools/help_example.png">
 
 All of this is built using [GitBook](https://github.com/GitbookIO/gitbook) which allows converting [markdown files](https://www.markdownguide.org/) into something that looks like an online book.
 The core of the documentation is in the `src/book` folder of the [c6h6-documentation repository](https://github.com/cheminfo/c6h6-documentation/tree/master/src/book) where you can find subfolders for different categories.
@@ -20,7 +21,7 @@ The core of the documentation is in the `src/book` folder of the [c6h6-documenta
 
 You might now ask yourself how the mapping between the view in the ELN and the page in the documentation works. This is set up in `index.yml` files like [this here for the PXRD documentation](https://github.com/cheminfo/c6h6-documentation/blob/master/src/book/spectra/pxrd/index.yml). The file contains one key called `uuid` which is the [uuid](https://en.wikipedia.org/wiki/Universally_unique_identifier) of the view. If we analyze the requests the ELN makes using the [network tab in the developer tools](https://developers.google.com/web/tools/chrome-devtools/network/) we find that this is indeed the UUID of the view.
 
-<img style="float:center; width: 30em" src="{{ site.url }}/assets/img/developer_tools/uuid_developer_tools.png">
+<img style="float:center; width: 30em" src="/assets/images/developer_tools/uuid_developer_tools.png">
 
 This is also what we find in the [visualizer helper library](https://github.com/cheminfo-js/visualizer-helper/blob/150b2bfea7a0d50778a85b53d2fad51939bde9d8/util/tips.js#L13-L26): for a given view we get the UUID `info._id` and then can use this to find the correct `yml` file that configures the sections of the documentation.
 
@@ -52,26 +53,26 @@ Since the documentation lives in simple markdown files on GitHub you can contrib
 To contribute to the documentation you need a [GitHub account](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account), you need to [install Git locally](https://git-scm.com/downloads/), and we recommend that you install [VSCode](https://code.visualstudio.com/) and a markdown plugin. The first points are explained in our contribution guidelines while latter is discussed in the first sections of our blog post about the development setup. Once you have all of this setup you can
 
 1. Go to the [c6h6-documentation repository](https://github.com/cheminfo/c6h6-documentation/tree/master/src/book) and click on fork
-   <img style="float:center; width: 30em" src="{{ site.url }}/assets/img/developer_tools/c6h6_repo.png">
+   <img style="float:center; width: 30em" src="/assets/images/developer_tools/c6h6_repo.png">
 2. In you fork (i.e., your personal copy) you can click on the ["clone"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) button, copy the URL
-   <img style="float:center; width: 30em" src="{{ site.url }}/assets/img/developer_tools/clone.png">
+   <img style="float:center; width: 30em" src="/assets/images/developer_tools/clone.png">
 
    In your terminal run `git clone <myurl>` (in my case `git clone git clone https://github.com/kjappelbaum/c6h6-documentation`). This will create a new folder in which you can go with `cd c6h6-documentation`. In this folder you can type `code .`, which will open VSCode (note that is easiest to start with the `HTTPS` URL, if you get used to working with GitHub it can be useful to [upload your SSH keys for authentication](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)). On Windows [you can perform these changes using command prompt](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/)
 
 3. In VSCode, you can use the footer to make new branch. Likely, it will write "master".
-   <img style="float:center; width: 25em" src="{{ site.url }}/assets/img/developer_tools/branch.png">
+   <img style="float:center; width: 25em" src="/assets/images/developer_tools/branch.png">
 
    If you click on this a small editor opens that allows you to make a new branch with a name of your choice.
    We recommend using a short name that describes the type of your change, e.g., `fix-isotherm-docs`
 
-   <img style="float:center; width: 25em" src="{{ site.url }}/assets/img/developer_tools/branch_name.png">
+   <img style="float:center; width: 25em" src="/assets/images/developer_tools/branch_name.png">
 
 4. Then you can start making the changes in the relevant files
 5. Using the version control icon in the activity bar on the left you can ["stage" and then "commit"](https://githowto.com/staging_and_committing) the changes you made. For this you can just write a message like `doc: fixed typos in the isotherm documentation` and then click on the checkmark
-   <img style="float:center; width: 20em" src="{{ site.url }}/assets/img/developer_tools/source_control.png">
+   <img style="float:center; width: 20em" src="/assets/images/developer_tools/source_control.png">
 6. Once you committed your changes, you can push them using the "synchronize changes" icon in the footer (status bar) of VSCode.
 7. Once you have pushed the changes you'll see that there is a banner in your fork that gives you the option to make a [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) by clicking on a green button.
-   <img style="float:center; width: 25em" src="{{ site.url }}/assets/img/developer_tools/pr_button.png">
+   <img style="float:center; width: 25em" src="/assets/images/developer_tools/pr_button.png">
 8. If you can click this button, you'll be directed to a from where you can describe your changes and make the pull request.
 9. We will review the pull request and merge it to the main branch. As soon as the pull request is merged, GitHub will also show you as "Contributor".
 
@@ -83,7 +84,7 @@ At first, it might be intimidating to find the relevant files in the `c6h6-docum
 
 If there is also an existing page, you can just search across all files for some text from this page and VSCode will find the relevant file, in the screenshot below we only search for "XRD" and directly find the relevant files
 
-  <img style="float:center; width: 16em" src="{{ site.url }}/assets/img/developer_tools/xrd_search.png">
+  <img style="float:center; width: 16em" src="/assets/images/developer_tools/xrd_search.png">
 
 ### I want to add a new page or new "tips" to an existing page
 
@@ -117,7 +118,7 @@ pxrd
 
 The `description` in the `yml` file is the title of the documentation section, the `uuid` is the UUID of the view that you can extract using the developer tools (as described above) and the `tips` lists contains all subfolders that you want to appear as separate tips (in this case, `simulation`). In the case of the PXRD documentation, the final product will look as follows
 
-<img style="float:center; width: 40em" src="{{ site.url }}/assets/img/developer_tools/pxrd_docs.png">
+<img style="float:center; width: 40em" src="/assets/images/developer_tools/pxrd_docs.png">
 
 ### Basics of Markdown
 
@@ -159,17 +160,3 @@ It is good practice to make a folder `images` for the images you add to the docu
 In the short video below we show you how you fork the [c6h6-documentation repository](https://github.com/cheminfo/c6h6-documentation/tree/master/src/book), make a new branch, make and commit changes to the documentation and then make a pull request.
 
 {% include youtube.html id="SLvsZwa5KfY" %}
-
-<hr>
-
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="tab-content">
+          <div class="row">
+            {% for paper in page.papers %}
+            <div class="col-md-3 mb-4">
+              <div class="card border-0 shadow">
+                <img
+                  src="{{ paper.image | relative_url }}"
+                  alt="{{ paper.name }}"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h4 class="h5 mb-4">
+                    <a class="text-dark" href="{{ paper.link }}"
+                      >{{ paper.name }}</a
+                    >
+                  </h4>
+                  <a href="{{ paper.link }}" class="btn btn-primary"
+                    >Read article</a
+                  >
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

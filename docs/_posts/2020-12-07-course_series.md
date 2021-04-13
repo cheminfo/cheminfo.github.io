@@ -1,8 +1,9 @@
 ---
-layout: post
 title: "New seminar series / graduate course"
 date: 2020-12-07 19:53:30 +0100
-categories: [tutorial, news]
+author: "Kevin Jablonka"
+categories: ["Tutorial", "News"]
+description: "This is meta description"
 ---
 
 Over the last year we had the opportunity to participate in 4 doctoral school classes and it appears that some features of eln.epfl.ch that can be used to solve research projects are not well known.
@@ -108,17 +109,3 @@ The first seminar will focus on the "big picture"
 - Create reports
 - Export to Zenodo
 - Download files as a ZIP
-
-<hr>
-
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
