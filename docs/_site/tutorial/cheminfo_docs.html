@@ -1,4 +1,366 @@
-<meta
-  http-equiv="Refresh"
-  content="0; url='https://cheminfo.github.io/post/cheminfo_docs.html'"
-/>
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title>Cheminfo ELN</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+    
+  
+
+  
+  <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/assets/plugins/themify-icons/themify-icons.css">
+  
+
+  <!-- Main Stylesheet -->
+  <link href="/assets/scss/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/assets/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="/assets/images/favicon.png " type="image/x-icon">
+
+  <!-- google-analytics -->
+  
+
+</head>
+
+<body>
+    
+    <!-- navigation -->
+<header class="fixed-top navigation">
+  <div class="container">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand" href="/"><img class="img-fluid" src="/assets/images/logo.svg" alt="Cheminfo ELN"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          
+            
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            
+          
+            
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+            
+          
+            
+
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            
+          
+            
+
+            <li class="nav-item">
+              <a class="nav-link" href="/faq">FAQ</a>
+            </li>
+            
+          
+            
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contribute">Contribute</a>
+            </li>
+            
+          
+            
+
+            <li class="nav-item">
+              <a class="nav-link" href="/team">Team</a>
+            </li>
+            
+          
+            
+
+            <li class="nav-item">
+              <a class="nav-link" href="/publications">Papers</a>
+            </li>
+            
+          
+        </ul>
+        
+        <!-- search -->
+        <div class="search">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="/search" class="h-100">
+              <input class="search-box px-4" id="search-box" name="query" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+    <div class="py-5 d-none d-lg-block"></div>
+    <section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto block shadow mb-5">
+        <h2>Where can I find help in the ELN and how can I improve it?</h2>
+        <div class="mb-3 post-meta">
+          
+          <a href="/author/kevin-jablonka">Kevin jablonka</a>,
+          Feb 04, 2021,
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p>In this blog post we will discuss where you can find help in the ELN and how you can help use improving the documentation.</p>
+
+<h1 id="how-does-the-documentation-in-the-eln-work">How does the documentation in the ELN work?</h1>
+
+<p>If you have been using the ELN you might have been noticing that there is a question mark icon in the top left corner of some pages in the ELN. If you click on it, it will open a popup with help relevant to the view you’re currently looking at.</p>
+
+<p><img style="float:center; width: 40em" src="/assets/images/developer_tools/help_example.png" /></p>
+
+<p>All of this is built using <a href="https://github.com/GitbookIO/gitbook">GitBook</a> which allows converting <a href="https://www.markdownguide.org/">markdown files</a> into something that looks like an online book.
+The core of the documentation is in the <code class="language-plaintext highlighter-rouge">src/book</code> folder of the <a href="https://github.com/cheminfo/c6h6-documentation/tree/master/src/book">c6h6-documentation repository</a> where you can find subfolders for different categories.</p>
+
+<h2 id="mapping-views-to-documentation-pages">Mapping views to documentation pages</h2>
+
+<p>You might now ask yourself how the mapping between the view in the ELN and the page in the documentation works. This is set up in <code class="language-plaintext highlighter-rouge">index.yml</code> files like <a href="https://github.com/cheminfo/c6h6-documentation/blob/master/src/book/spectra/pxrd/index.yml">this here for the PXRD documentation</a>. The file contains one key called <code class="language-plaintext highlighter-rouge">uuid</code> which is the <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">uuid</a> of the view. If we analyze the requests the ELN makes using the <a href="https://developers.google.com/web/tools/chrome-devtools/network/">network tab in the developer tools</a> we find that this is indeed the UUID of the view.</p>
+
+<p><img style="float:center; width: 30em" src="/assets/images/developer_tools/uuid_developer_tools.png" /></p>
+
+<p>This is also what we find in the <a href="https://github.com/cheminfo-js/visualizer-helper/blob/150b2bfea7a0d50778a85b53d2fad51939bde9d8/util/tips.js#L13-L26">visualizer helper library</a>: for a given view we get the UUID <code class="language-plaintext highlighter-rouge">info._id</code> and then can use this to find the correct <code class="language-plaintext highlighter-rouge">yml</code> file that configures the sections of the documentation.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">async</span> <span class="kd">function</span> <span class="nx">showTips</span><span class="p">(</span><span class="nx">info</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">info</span><span class="p">)</span> <span class="nx">info</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">getViewInfo</span><span class="p">();</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">info</span><span class="p">.</span><span class="nx">_id</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+  <span class="c1">//  info._id='15c9a2dcd55c963fdedf2c18a1471b03';</span>
+  <span class="c1">//  info.rev=90;</span>
+  <span class="c1">// retrieve tips toc</span>
+  <span class="k">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="s2">`</span><span class="p">${</span><span class="nx">tipsURL</span> <span class="o">+</span> <span class="nx">info</span><span class="p">.</span><span class="nx">_id</span><span class="p">}</span><span class="s2">/index.yml`</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="k">async</span> <span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+      <span class="kd">let</span> <span class="nx">text</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">response</span><span class="p">.</span><span class="nx">text</span><span class="p">();</span>
+      <span class="nx">processTipsToc</span><span class="p">(</span><span class="nx">text</span><span class="p">,</span> <span class="nx">info</span><span class="p">);</span>
+    <span class="p">})</span>
+    <span class="p">.</span><span class="k">catch</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>And the <a href="https://github.com/cheminfo-js/visualizer-helper/blob/150b2bfea7a0d50778a85b53d2fad51939bde9d8/util/tips.js#L49-L61"><code class="language-plaintext highlighter-rouge">processTipsToc</code></a> function is then the one that actually pops up the documentation.</p>
+
+<h1 id="how-can-i-help-improve-the-documentation">How can I help improve the documentation</h1>
+
+<p>Since the documentation lives in simple markdown files on GitHub you can contribute by simply editing the markdown files. The process is, as with all contributions to projects on GitHub, fork, edit, pull request.</p>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>To contribute to the documentation you need a <a href="https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account">GitHub account</a>, you need to <a href="https://git-scm.com/downloads/">install Git locally</a>, and we recommend that you install <a href="https://code.visualstudio.com/">VSCode</a> and a markdown plugin. The first points are explained in our contribution guidelines while latter is discussed in the first sections of our blog post about the development setup. Once you have all of this setup you can</p>
+
+<ol>
+  <li>Go to the <a href="https://github.com/cheminfo/c6h6-documentation/tree/master/src/book">c6h6-documentation repository</a> and click on fork
+<img style="float:center; width: 30em" src="/assets/images/developer_tools/c6h6_repo.png" /></li>
+  <li>
+    <p>In you fork (i.e., your personal copy) you can click on the <a href="https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository">“clone”</a> button, copy the URL
+<img style="float:center; width: 30em" src="/assets/images/developer_tools/clone.png" /></p>
+
+    <p>In your terminal run <code class="language-plaintext highlighter-rouge">git clone &lt;myurl&gt;</code> (in my case <code class="language-plaintext highlighter-rouge">git clone git clone https://github.com/kjappelbaum/c6h6-documentation</code>). This will create a new folder in which you can go with <code class="language-plaintext highlighter-rouge">cd c6h6-documentation</code>. In this folder you can type <code class="language-plaintext highlighter-rouge">code .</code>, which will open VSCode (note that is easiest to start with the <code class="language-plaintext highlighter-rouge">HTTPS</code> URL, if you get used to working with GitHub it can be useful to <a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh">upload your SSH keys for authentication</a>). On Windows <a href="https://www.howtogeek.com/451360/how-to-clone-a-github-repository/">you can perform these changes using command prompt</a></p>
+  </li>
+  <li>
+    <p>In VSCode, you can use the footer to make new branch. Likely, it will write “master”.
+<img style="float:center; width: 25em" src="/assets/images/developer_tools/branch.png" /></p>
+
+    <p>If you click on this a small editor opens that allows you to make a new branch with a name of your choice.
+We recommend using a short name that describes the type of your change, e.g., <code class="language-plaintext highlighter-rouge">fix-isotherm-docs</code></p>
+
+    <p><img style="float:center; width: 25em" src="/assets/images/developer_tools/branch_name.png" /></p>
+  </li>
+  <li>Then you can start making the changes in the relevant files</li>
+  <li>Using the version control icon in the activity bar on the left you can <a href="https://githowto.com/staging_and_committing">“stage” and then “commit”</a> the changes you made. For this you can just write a message like <code class="language-plaintext highlighter-rouge">doc: fixed typos in the isotherm documentation</code> and then click on the checkmark
+<img style="float:center; width: 20em" src="/assets/images/developer_tools/source_control.png" /></li>
+  <li>Once you committed your changes, you can push them using the “synchronize changes” icon in the footer (status bar) of VSCode.</li>
+  <li>Once you have pushed the changes you’ll see that there is a banner in your fork that gives you the option to make a <a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests">pull request</a> by clicking on a green button.
+<img style="float:center; width: 25em" src="/assets/images/developer_tools/pr_button.png" /></li>
+  <li>If you can click this button, you’ll be directed to a from where you can describe your changes and make the pull request.</li>
+  <li>We will review the pull request and merge it to the main branch. As soon as the pull request is merged, GitHub will also show you as “Contributor”.</li>
+</ol>
+
+<h2 id="where-do-i-make-the-changes">Where do I make the changes?</h2>
+
+<p>At first, it might be intimidating to find the relevant files in the <code class="language-plaintext highlighter-rouge">c6h6-documentation</code>, but in practice it is easy to find the file you need to edit</p>
+
+<h3 id="i-want-to-fix-a-typo-or-extend-an-existing-page">I want to fix a typo or extend an existing page</h3>
+
+<p>If there is also an existing page, you can just search across all files for some text from this page and VSCode will find the relevant file, in the screenshot below we only search for “XRD” and directly find the relevant files</p>
+
+<p><img style="float:center; width: 16em" src="/assets/images/developer_tools/xrd_search.png" /></p>
+
+<h3 id="i-want-to-add-a-new-page-or-new-tips-to-an-existing-page">I want to add a new page or new “tips” to an existing page</h3>
+
+<p>Adding a new page is slightly more difficult.</p>
+
+<p>First, it is usually good to get inspired by existing pages. This is, if you want to add some documentation for IV curves you might find it practical to get started by copy/pasting the XRD documentation folder. If you want to add documentation for some spectra type, you’ll do so in <code class="language-plaintext highlighter-rouge">src/book/spectra</code>. You will create a <code class="language-plaintext highlighter-rouge">README.md</code> file with the main documentation content and a <code class="language-plaintext highlighter-rouge">index.yml</code> with the metadata—that is, the <code class="language-plaintext highlighter-rouge">UUID</code> of the view. As shown above, you can get it from the Network tab in the developer tools (which you can open using right-click on the page, then inspect)</p>
+
+<p>You may have noticed that for some techniques there is not only one <code class="language-plaintext highlighter-rouge">README.md</code> file but also some folders. Those are the other sections that will appear as “tips”. For example, if you look at the PXRD documentation, you see that main <code class="language-plaintext highlighter-rouge">README.md</code> file will be shown as introduction (as on any other pages) but in the <a href="https://github.com/cheminfo/c6h6-documentation/blob/master/src/book/spectra/pxrd/index.yml"><code class="language-plaintext highlighter-rouge">/src/book/spectra/pxrd/</code> directory</a> we also have a subfolder called <code class="language-plaintext highlighter-rouge">simulation</code> that contains a <code class="language-plaintext highlighter-rouge">index.md</code> file that will be shown as additional section in the documentation. You can add an unlimited number of such subfolders which will show up as separate “tips”. Note that you have to add those tips to the <code class="language-plaintext highlighter-rouge">index.yml</code> file with a <code class="language-plaintext highlighter-rouge">title</code> and <code class="language-plaintext highlighter-rouge">name</code>. The <code class="language-plaintext highlighter-rouge">title</code> will be the title that shows up in the documentation in the ELN and the <code class="language-plaintext highlighter-rouge">name</code> is the name of the subfolder (please do not use spaces). An example of the complete <code class="language-plaintext highlighter-rouge">index.yml</code> file looks like</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">description</span><span class="pi">:</span> <span class="s">View compare and simulate PXRD</span>
+<span class="na">uuid</span><span class="pi">:</span> <span class="s">c7bc5cf7caebbff02b1ae83e32bfd68f</span>
+<span class="na">tips</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">minRev</span><span class="pi">:</span> <span class="m">95</span>
+    <span class="na">title</span><span class="pi">:</span> <span class="s">Simulation from CIF file</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">simulation</span>
+</code></pre></div></div>
+
+<p>and the folder in the <code class="language-plaintext highlighter-rouge">/src/book/spectra/</code> directory looks like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pxrd
+├── README.md
+├── images
+│   └── analysis.png
+├── index.yml
+└── simulation
+    ├── index.md
+    └── simulation.png
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">description</code> in the <code class="language-plaintext highlighter-rouge">yml</code> file is the title of the documentation section, the <code class="language-plaintext highlighter-rouge">uuid</code> is the UUID of the view that you can extract using the developer tools (as described above) and the <code class="language-plaintext highlighter-rouge">tips</code> lists contains all subfolders that you want to appear as separate tips (in this case, <code class="language-plaintext highlighter-rouge">simulation</code>). In the case of the PXRD documentation, the final product will look as follows</p>
+
+<p><img style="float:center; width: 40em" src="/assets/images/developer_tools/pxrd_docs.png" /></p>
+
+<h3 id="basics-of-markdown">Basics of Markdown</h3>
+
+<p>Even if you now have the file you want to edit or create you still might wonder how you need to structure the file. All the files are written in Markdown, which in contrast to Microsoft Word or Google Docs follows the <a href="https://en.wikipedia.org/wiki/WYSIWYM">“what you see is what you mean” principle</a>. That is, there is usually some syntax you need to use to format your text, e.g., to make it bold or to make a header. To make it easier to see what is going on, you can open the <a href="https://code.visualstudio.com/Docs/languages/markdown">“Preview” in VSCode which will automatically update the document based on the markdown “code” you write</a>.</p>
+
+<p>The Markdown syntax is pretty easy and there only a few things you need to know to make contributions to the documentation:</p>
+
+<ul>
+  <li>To create headings, markdown uses hashtags (<code class="language-plaintext highlighter-rouge">#</code>). The number of hashtags indicates the heading level. That is, you might do something like</li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Section</span>
+
+<span class="gu">## Subsection</span>
+
+<span class="gu">### Subsubsection</span>
+</code></pre></div></div>
+
+<p>And markdown will automatically adjust the font size for you and these headings can also be used for navigation or to create a table of contents.</p>
+
+<ul>
+  <li>
+    <p>To add a hyperlink you will use <code class="language-plaintext highlighter-rouge">[linktext](link)</code>, if you want to link to google you might write something link <code class="language-plaintext highlighter-rouge">for more details you can just [google](www.google.com) it</code>.</p>
+  </li>
+  <li>To make something <strong>bold</strong> you can use double underscores <code class="language-plaintext highlighter-rouge">__bold__</code></li>
+  <li>To <em>italicize</em> something you can use stars <code class="language-plaintext highlighter-rouge">*in italics*</code></li>
+  <li>To add an image you use syntax that is quite similar to the hyperlink syntax <code class="language-plaintext highlighter-rouge">![alternative text](link to image)</code></li>
+  <li>If you need to add some formula you can use our <a href="http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F12c971bb3f9d5f93dfbf82f27e089d35%2Fview.json&amp;loadversion=true&amp;fillsearch=Convert+tex+latex+for+github">LaTeX generator tool</a> that will give you an “URL” that you can use with the image syntax, e.g, <code class="language-plaintext highlighter-rouge">![quadratic formula](https://tex.cheminfo.org/?tex=x%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D)</code> will yield <img src="https://tex.cheminfo.org/?tex=x%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D" alt="quadratic formula" /></li>
+</ul>
+
+<p>It is often practical to include screenshots. macOS, Windows, and Linux all have useful tools and keybindings to create screenshots:</p>
+
+<ul>
+  <li>On Mac you can simply use <code class="language-plaintext highlighter-rouge">CMD+SHIFT+4</code> and draw a rectangle around the area of interest. By default, screenshots are saved on the desktop, and you can use Preview to add highlights and annotations.</li>
+  <li>On Windows you can use the <a href="https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b">Snipping Tool</a> for this you only need to press the “Start” button and search for “snipping tool”. Similar to the Mac tool you can select an area or capture the full screen. You can also directly annotate the screenshots.</li>
+  <li>On Ubuntu you can just press the <code class="language-plaintext highlighter-rouge">Prt Scrn</code> button and will find a screenshot in your <code class="language-plaintext highlighter-rouge">home</code> directory. <a href="https://help.ubuntu.com/stable/ubuntu-help/screen-shot-record.html">But you can also search for screenshot</a> and use a utility that allows to select a region of interest.</li>
+</ul>
+
+<p>Note that there are also some Chrome Plugins that allow you to take screenshots directly from the browser. <a href="https://www.awesomescreenshot.com/">Some</a> even allow you to record short screencasts.</p>
+
+<p>It is good practice to make a folder <code class="language-plaintext highlighter-rouge">images</code> for the images you add to the documentation.</p>
+
+<h2 id="hands-on-walkthrough">Hands on walkthrough</h2>
+
+<p>In the short video below we show you how you fork the <a href="https://github.com/cheminfo/c6h6-documentation/tree/master/src/book">c6h6-documentation repository</a>, make a new branch, make and commit changes to the documentation and then make a pull request.</p>
+
+<iframe src="https://www.youtube.com/embed/SLvsZwa5KfY" width="560" height="315" frameborder="0" allowfullscreen="">
+</iframe>
+
+
+        </div>
+        <!-- comments -->
+        
+          <!-- disqus-comments -->
+<div class="comments" style="padding: 1rem 0">
+  <div id="disqus_thread" class="comments__article"></div>
+  <script>
+    (function () {
+      var d = document, s = d.createElement('script');
+      s.src = '//.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+</div>
+<!-- /disqus-comments -->
+        
+        <!-- /comments -->
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- footer -->
+<footer class="py-4 bg-light border-top">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+        <a href="/" class="d-block pb-3"><img src="/assets/images/logo.svg" class="img-fluid" alt="Cheminfo ELN"></a>
+      </div>
+      <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        <ul class="list-inline mb-0">
+          
+          <li class="list-inline-item"><a class="text-dark d-block p-2" href="/">Home</a></li>
+          
+          <li class="list-inline-item"><a class="text-dark d-block p-2" href="/contact">Contact</a></li>
+          
+          <li class="list-inline-item"><a class="text-dark d-block p-2" href="/coc">Code of Conduct</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-4 text-lg-right text-center mb-4 mb-lg-0">
+        <ul class="list-inline social-icon mb-0">
+          
+          <li class="list-inline-item"><a href="/twitter.com/cheminfo"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="/github.com/cheminfo"><i class="ti-github"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <span><p>Theme: Copyright © 2020 Designed by <a href="https://themefisher.com">Themefisher</a> &amp; Developed by <a href="https://getjekyllthemes.com">Getjekyllthemes</a></p>
+</span>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- JS Plugins -->
+
+<script src="/assets/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/assets/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/assets/plugins/search/lunr.min.js"></script>
+
+<script src="/assets/plugins/search/search.js"></script>
+
+
+<!-- Main Script -->
+<script src="/assets/js/script.js"></script>
+</body>
+
+</html>

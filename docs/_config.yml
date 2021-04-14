@@ -51,6 +51,13 @@ defaults:
       permalink: post/:title:output_ext
       layout: post
 
+  - scope:
+      path: ''
+      type: "posts"
+    values:
+      permalink: tutorial/:title:output_ext
+      layout: post
+
 # Tags
 tag_page_dir:         tag
 tag_page_layout:      tags
