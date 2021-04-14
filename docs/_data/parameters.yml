@@ -26,6 +26,7 @@ menu:
     - { name: Home, url: "/" }
     - { name: Contact, url: "/contact" }
     - { name: "Code of Conduct", url: "/coc" }
+    - { name: "Status", url: "https://kjappelbaum.github.io/cheminfo-status/" }
 
 ######################### Default Parameters ###########################
 
