@@ -34,7 +34,7 @@ menu:
 logo: "/assets/images/logo.svg"
 # meta data
 author: "cheminfo"
-description: "This is meta description"
+description: "cheminfo is an open science effort that provides FAIR building blocks for chemistry and beyond."
 # google analitycs ID
 google_analitycs_id: "" # your id
 # contact form action
@@ -63,7 +63,7 @@ social:
 
   - name: "github"
     icon: "ti-github" # themify icon pack https://themify.me/themify-icons
-    link: "github.com/cheminfo"
+    link: "https://github.com/cheminfo/"
   # - name : "linkedin"
   #   icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
   #   link : "#"
