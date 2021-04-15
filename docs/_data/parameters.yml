@@ -27,6 +27,10 @@ menu:
     - { name: Contact, url: "/contact" }
     - { name: "Code of Conduct", url: "/coc" }
     - { name: "Status", url: "https://kjappelbaum.github.io/cheminfo-status/" }
+    - {
+        name: "App registry (in development)",
+        url": "https://fervent-banach-4255bd.netlify.app/",
+      }
 
 ######################### Default Parameters ###########################
 
