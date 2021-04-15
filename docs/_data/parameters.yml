@@ -29,7 +29,7 @@ menu:
     - { name: "Status", url: "https://kjappelbaum.github.io/cheminfo-status/" }
     - {
         name: "App registry (in development)",
-        url": "https://fervent-banach-4255bd.netlify.app/",
+        url: "https://fervent-banach-4255bd.netlify.app/",
       }
 
 ######################### Default Parameters ###########################
