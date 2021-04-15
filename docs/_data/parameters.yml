@@ -3,12 +3,12 @@ menu:
   # main menu
   main:
     - { name: Home, url: "/" }
-    - { name: Contact, url: "/contact" }
     - { name: About, url: "/about" }
     - { name: FAQ, url: "/faq" }
     - { name: Contribute, url: "/contribute" }
     - { name: Team, url: "/team" }
     - { name: Papers, url: "/publications" }
+    - { name: Contact, url: "/contact" }
 
   ##### Dropdown menu ######
 
