@@ -175,4 +175,5 @@ Jessica is a polymer chemist involved in the development of [MSPolyCalc](https:/
 ## Funding and Support
 
 <img style="float: left; margin-right: 2em; width: 20em" src="/assets/images/logos.png">
-The cheminfo ecosystem is grateful for support from many organizations. The development was financially supported by industrial partners and some of the packages are maintaned with the help of industrial partners.ƒ
+The cheminfo ecosystem is grateful for support from many organizations. The development was financially supported by industrial partners and some of the packages are maintaned with the help of industrial partners.
+Cheminfo is also supported in its mission by the [NCCR MARVEL](https://www.nccr-marvel.ch/), funded by the Swiss National Science Foundation. Cheminfo and the NCCR MARVEL strive to align their open science infrastructures.
