@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: "Contact Us"
-description: "this is meta description"
+description: "To report bugs, you can use the GitHub issue tracker. You can also contact us via Slack or the contact form."
 image: "/assets/images/contact.svg"
 ---
 

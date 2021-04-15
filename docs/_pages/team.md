@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Team
+description: "The cheminfo system has contributors all around the world and acknowledges support from many organizations"
 ---
 
 ## Contributors

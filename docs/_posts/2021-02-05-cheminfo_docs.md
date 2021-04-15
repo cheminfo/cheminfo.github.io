@@ -2,7 +2,7 @@
 title: "Where can I find help in the ELN and how can I improve it?"
 author: "Kevin Jablonka"
 date: 2021-02-04 14:11
-description: "This is meta description"
+description: "This post describes how to contribute to the documentation of the ELN."
 categories: ["Tutorial"]
 ---
 

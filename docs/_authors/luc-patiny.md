@@ -1,7 +1,7 @@
 ---
 title: "Luc Patiny"
 image: "/assets/images/author/luc.jpg"
-description: "Master mind"
+description: "Luc Patiny is founder of the project"
 ---
 
 Luc Patiny, head of the <a href="https://people.epfl.ch/luc.patiny?lang=e">cheminformatics service at EPFL</a>, manages the deployment of the ELN at EPFL, is founder of the project, and chief scientific officer at <a href="https://www.zakodium.com/">Zakodium</a>.

@@ -59,7 +59,7 @@ social:
 
   - name: "twitter"
     icon: "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-    link: "twitter.com/cheminfo"
+    link: "https://twitter.com/cheminformatics"
 
   - name: "github"
     icon: "ti-github" # themify icon pack https://themify.me/themify-icons

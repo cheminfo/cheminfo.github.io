@@ -2,7 +2,7 @@
 title: "The cheminfo development environment and workflow from a perspective of a new contributor"
 date: 2020-12-07 19:53:30 +0100
 author: "Kevin Jablonka"
-description: "This is meta description"
+description: "This blog post describes how to set up the cheminfo development environment"
 categories: ["Tutorial", "News"]
 ---
 
@@ -166,6 +166,8 @@ BREAKING CHANGE:
 
 Renamed parseXY to parseAbcXY
 ```
+
+We recommend that you use [imperative mood in the subject line of your commit message](https://chris.beams.io/posts/git-commit/). Ideally, your subject line is the completion of "If applied, this commit will _your subject line here_"
 
 # GitHub actions
 

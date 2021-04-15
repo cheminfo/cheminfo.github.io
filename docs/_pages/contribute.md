@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Contribution guide"
+description: "All contributions to cheminfo are more than welcome! For code contributions, we recommend to use our development setup"
 ---
 
 ## How can I contribute to the ELN?

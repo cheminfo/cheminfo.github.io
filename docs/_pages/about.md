@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About cheminfo"
-description: "this is meta description"
+description: "cheminfo is an open science efforts that provides open source tools for capture, processing, and analysis of (chemical) data"
 ---
 
 ## The cheminfo ecosystem

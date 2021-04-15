@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "FAQ"
+description: "Commonly asked questions and answers"
 ---
 
 ## What makes it different form other ELNs?

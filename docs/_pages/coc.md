@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Code of conduct"
+description: "cheminfo strives to be an open and welcoming enviornment"
 ---
 
 ## Our Pledge

@@ -1,7 +1,7 @@
 ---
 layout: papers
 title: "Papers"
-description: "this is meta description"
+description: "research done for and with cheminfo tools lead to many peer-reviewed research articles."
 
 papers:
   - name: A data-driven perspective on the colours of metal–organic frameworks
