@@ -4,9 +4,9 @@ title: "FAQ"
 description: "Commonly asked questions and answers"
 ---
 
-## What makes it different form other ELNs?
+# What makes it different from other ELNs?
 
-_With the cheminfo ELN [FAIR data](https://www.go-fair.org/fair-principles/) is not an afterthought of a data management plan (DMP)._
+_With he cheminfo ELN [FAIR data](https://www.go-fair.org/fair-principles/) is not an afterthought of a data management plan (DMP)._
 
 Upon importation to the ELN all data are converted into standardized, and open formats like [JCAMP-DX](http://jcamp-dx.org/). All synthesis, analysis, and notes can be exported with metadata to a Zenodo in a form that is amenable to data mining efforts.
 
