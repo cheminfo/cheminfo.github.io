@@ -1,5 +1,5 @@
 ---
-title: "The cheminfo team at EPFL hires: Student assistant with React experience"
+title: "The cheminfo team at EPFL is looking for a student assistant with React experience"
 date: 2021-04-15 08:00
 author: "Kevin Jablonka"
 categories: ["News"]
