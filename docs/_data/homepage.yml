@@ -1,11 +1,9 @@
 ####################### banner #######################################
 banner:
-  enable : true
-  title : "FAIR building blocks for chemistry and beyond."
-  image : "/assets/images/banner/blocks.svg"
-  bg_image : "/assets/images/banner/banner-bg.svg"
-
-
+  enable: true
+  title: <a href="/about">FAIR building blocks for chemistry and beyond.</a>
+  image: "/assets/images/banner/blocks.svg"
+  bg_image: "/assets/images/banner/banner-bg.svg"
 # ######################## call to action ###############################
 # call_to_action:
 #   enable : true
