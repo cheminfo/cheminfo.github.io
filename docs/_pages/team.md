@@ -8,8 +8,6 @@ description: "The cheminfo system has contributors all around the world and ackn
 
 The cheminfo system has contributors all around the world.
 
-<iframe frameborder=0 style='width:100%;height:500px' src='//www.zeemaps.com/pub?group=4057653&legend=1&list=1&shuttered=1'> </iframe>
-
 ### Switzerland
 
 #### [Ecole polytechnique fédérale de Lausanne](https://epfl.ch)
