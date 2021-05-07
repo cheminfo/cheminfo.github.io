@@ -6,7 +6,7 @@ description: "All contributions to cheminfo are more than welcome! For code cont
 
 ## How can I contribute to the ELN?
 
-All contributions are more than welcome! If you have a problem/found a bug you can [open an issue](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue) on the [bug tracker](https://github.com/cheminfo/eln.epfl.ch/issues) or let us know in the [Slack workspace](https://elnepflchforum.slack.com/)).
+All contributions are more than welcome! If you have a problem/found a bug you can [open an issue](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue) on the [bug tracker](https://github.com/cheminfo/cheminfo.github.io/issues) or let us know in the [Slack workspace](cheminfo-eln.slack.com)).
 
 ## How can I make contributions to code and documentation?
 
