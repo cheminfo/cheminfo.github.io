@@ -75,12 +75,12 @@ For contributions to code and documentation you will need a GitHub accounts, you
    - On Mac, the most convenient way is to use [Homebrew](https://brew.sh/). For this you'll need to [install homebrew](https://brew.sh/) and then run `brew install git` from the terminal
    - On Ubuntu (i.e., also Windows subsystem for Linux) you can just run `apt-get install git` from the terminal
 
-3. We recommend that you install [VSCode](https://code.visualstudio.com/) and some plugins. We wrote a [blog post](posts/cheminfo_dev_setup/) describing how to set up the development environment and the first section discusses the VSCode setup.
+3. We recommend that you install [VSCode](https://code.visualstudio.com/) and some plugins. We wrote a [blog post](post/cheminfo_dev_setup/) describing how to set up the development environment and the first section discusses the VSCode setup.
 4. Once you have your GitHub account and your coding setup ready, you can [fork](https://docs.github.com/en/enterprise-server@2.20/github/getting-started-with-github/fork-a-repo) the repository you want to make a contribution to. "Forking" just means that you make a copy of the repository. To do so, you just need to click on the fork button in the top right corner. For contributions to the documentation, you'll need to fork the [c6h6-documentation](https://github.com/cheminfo/c6h6-documentation) repository.
 5. Clone the fork to your local computer and make a new branch.
-6. Make changes to the code or documentation. And commit them. We have a [blog post](posts/cheminfo_docs/) describing how the documentation works.
+6. Make changes to the code or documentation. And commit them. We have a [blog post](post/cheminfo_docs/) describing how the documentation works.
 7. Push the changes to the remote and make a pull request.
 
-We go through steps 4--7 in a video tutorial in the [blog post](posts/cheminfo_docs/).
+We go through steps 4--7 in a video tutorial in the [blog post](post/cheminfo_docs/).
 
 We [maintain a list of tools we like to use](https://github.com/cheminfo/awesome).
