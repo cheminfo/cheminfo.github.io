@@ -112,7 +112,7 @@ Is a contributor to the [openchemlib](https://github.com/cheminfo/openchemlib-js
 
 Jefferson is a Data Scientist at [Grupodot](https://www.grupodot.com/en/) and has been contributing to machine learning and image analysis libraries.
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeffersonh44/?locale=en_US) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/https://github.com/JeffersonH44)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeffersonh44/?locale=en_US) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JeffersonH44)
 
 ### Germany
 
