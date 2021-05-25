@@ -57,6 +57,13 @@ We are in the process of migrating to a new data schema, [which is based on Type
 
 The ELN documentation is based on Markdown files. We are [in the process of migrating to a docusaurus-based system](https://github.com/cheminfo/eln-docs). The [legacy repository uses GitBooks](https://github.com/cheminfo/c6h6-documentation).
 
+
+## Good first issues 
+
+Below you can find a list of good first issues we would appreciate help with 
+
+<iframe width="560"  src="https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Acheminfo+label%3A%22good+first+issue%22" frameborder="0" allowfullscreen></iframe>
+
 ## How can I make contributions to code and documentation?
 
 For contributions to code and documentation you will need a GitHub accounts, you will fork a repository, make a new branch, edit the code, and then make a pull request. In the following, we will go through all these steps.
