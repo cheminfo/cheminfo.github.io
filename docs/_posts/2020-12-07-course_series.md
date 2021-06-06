@@ -101,7 +101,7 @@ The first seminar will focus on the "big picture"
 - Export data for kinetic analysis
 
 
-### 14.6.2021: Machine learning on spectra abd Data exportation
+### 14.6.2021: Machine learning on spectra and data exportation
 
 - Preprocessing and normalization of spectra
 - Principal component Analysis (PCA)
