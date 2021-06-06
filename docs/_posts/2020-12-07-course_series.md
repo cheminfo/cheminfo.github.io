@@ -100,14 +100,12 @@ The first seminar will focus on the "big picture"
 - Integration, relative spectra
 - Export data for kinetic analysis
 
-### 7.6.2021: Machine learning on spectra
+
+### 14.6.2021: Machine learning on spectra abd Data exportation
 
 - Preprocessing and normalization of spectra
 - Principal component Analysis (PCA)
 - Uniform Manifold Approximation and Projection (UMAP)
-
-### 14.6.2021: Data exportation
-
 - Create reports
 - Export to Zenodo
 - Download files as a ZIP
