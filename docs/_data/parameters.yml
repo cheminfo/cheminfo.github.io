@@ -31,7 +31,7 @@ menu:
         name: "App registry (in development)",
         url: "https://fervent-banach-4255bd.netlify.app/"
       }
-   - { name: "ELN docs", url: "https://docs.c6h6.org/docs/eln/"}
+    - { name: "ELN docs", url: "https://docs.c6h6.org/docs/eln/"}
 
 ######################### Default Parameters ###########################
 
