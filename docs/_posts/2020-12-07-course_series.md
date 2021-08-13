@@ -11,7 +11,7 @@ For this reason we will organize some short (max 30 min) seminars by Zoom (https
 
 ## Credits
 
-If you want to obtain credits for the course we ask you to make significant improvements to the documentation (i.e., to go beyond fixing a few typos). Please [register in the poll](https://wolke.sumpi.org/index.php/apps/polls/s/thv1xHVPZkp7FmCP) and let us know in case you have issues with updating/writing documentation. See the [blog post about documentation](https://cheminfo.github.io/tutorial/cheminfo_docs/) for more details.
+If you want to obtain credits for the course we ask you to make significant improvements to the documentation (i.e., to go beyond fixing a few typos). Please [register in the poll](https://wolke.sumpi.org/index.php/apps/polls/s/thv1xHVPZkp7FmCP) and let us know in case you have issues with updating/writing documentation. See the [blog post about documentation](https://cheminfo.github.io/tutorial/cheminfo_docs.html) for more details.
 
 See the [recording](https://drive.google.com/file/d/1kmP9icNjPlQgp_wMDGGbAgWbPKDscWDW/view?usp=sharing) for the Q&A session.
 
