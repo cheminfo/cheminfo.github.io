@@ -32,8 +32,8 @@ For the ELN, we have developed about 180 software packages which receive about 2
 
 ## How can I get started?
 
-We maintain an open instance of the cheminfo ELN at [c6h6.org](c6h6.org), where you can log in using your GitHub account and start playing around.
-EPFL users visit [eln.epfl.ch](eln.epfl.ch) and log in with their GASPAR account.
+We maintain an open instance of the cheminfo ELN at [c6h6.org](https://www.c6h6.org/), where you can log in using your GitHub account and start playing around.
+EPFL users visit [eln.epfl.ch](https://eln.epfl.ch/) and log in with their GASPAR account.
 
 If you like what you see, you are welcome to [deploy your own ELN](https://github.com/cheminfo/roc-eln-docker).
 Feel free to [reach out](contact) if you have any questions about deploying the ELN yourself.
