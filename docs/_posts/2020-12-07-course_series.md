@@ -28,7 +28,6 @@ The first seminar will focus on the "big picture"
 - Extract knowledge
 - Publish information to Zenodo
 
-<a href="https://www.dropbox.com/s/u1fm0z0i3bggpac/topic%201.pdf?dl=1">Slides</a>
 
 ### 1.2.2021: Add a new sample
 
