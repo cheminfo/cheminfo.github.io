@@ -1,0 +1,17 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - uses: actions/checkout@v1
+    - name: Link Checker
+      id: lc
+      uses: lycheeverse/lychee-action@v1.0.8
+      with:
+          args: --verbose --no-progress  **/*.md --exclude http://localhost https://peter-ertl.com/jsme/ a@b.com eln.myinstitution.org
+    - name: Fail if there were link errors
+      run: exit ${{ steps.lc.outputs.exit_code }}
